@@ -1,0 +1,28 @@
+form {
+    background-color: lightgrey;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  }
+
+form input[type=text] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 18px;
+    text-align: center;
+}

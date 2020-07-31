@@ -1,0 +1,31 @@
+1. What is DOM manipulation? 
+The DOM (Document Object Model) is an Object Oriented representation 
+of a webpage, which can be modified by using a scripting language.
+Javascript is a laguage that specializes in effecting change in
+the the DOM's look, interactivity and display.
+
+2. What is an event listener?
+  An event listener is an event targeting method that sets up a function
+  to be called each time a targeted item is activated.
+
+3. What is spaghetti code? How do you avoid it? Why should you?
+spaghetti code referes to hard to follow, poorly structured code that
+is hard to "read" and follow.  Writing it makes it difficult for 
+others to work with you on joint projects. It also makes the 
+logic difficult to follow for future teams.  Avoid it by using breaks,
+indenting to indicate "ownership", carfully naming your code and variables,
+refactoring your code for clarity.
+
+4.Explain the difference between the Internet and the Web?
+The Internet is a global network of networks while the Web, also referred formally as 
+World Wide Web (www) is collection of information which is accessed via the Internet. Another 
+way to look at this difference is; the Internet is infrastructure while the Web is service on top of that infrastructure.
+
+5.Describe the request-response cycle. 
+  The request-response cycle is a series of events by which a user's ISP connects
+  to and renders a complete web page.  After a user puts an address in the addres bar, 
+  the address is broken down into components (http, www, address, query).
+  The ISP uses the domain to search for the IP address for the 
+  webpage and sends this info back to the user's machine. THen,
+  another series of requests asking for elements of the page are answered
+  by the server until the page is rendered.

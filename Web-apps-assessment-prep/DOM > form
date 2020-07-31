@@ -1,0 +1,123 @@
+DOM > form
+
+form submit >>> action
+
+search lyrics
+display results
+
+
+
+FRONTEND   BACKEND -> DB
+
+search lyrics:
+Front end -> fetch / AJAX Request -> Backend
+//first thig your front end requires is a backend route (url)
+https://api.lyrics.ovh/v1/{some-word}/{another-word}
+
+https://api.lyrics.ovh/v1/user/:id
+getUser ($userId) {
+
+}
+
+this function -> function getLyrics($artist, $title)
+
+
+
+POST https://api.lyrics.ovh/v1/getLyrics
+{
+  artist: 'xxx',
+  title: 'yyy'
+}
+
+http methods: GET POST PUT DELETE
+
+Backend -> DB for data
+Backend <-  DB
+frontend <- Backned
+
+display results:
+insert the results in the DOM
+
+
+********
+
+$('form')
+
+$('#form1')
+
+$('.js-search-form')
+
+
+function watchForm() {
+  $("form").submit(siri);
+}
+
+function siri(event){
+  event.preventDefault();
+  const artist = $("#query-artist").val();
+  const title = $("#query-title").val();
+  getLyrics(artist, title);
+}
+
+
+
+
+
+class X {
+  var testing = 'test';
+
+  var self = this;
+
+  function watchForm() {
+
+    $("form").submit(function(event){
+      event.preventDefault();
+      self.testing
+
+      const artist = $("#query-artist").val();
+      const title = $("#query-title").val();
+      getLyrics(artist, title);
+    });
+  }
+}
+
+
+
+
+
+
+function watchForm() {
+  $("form").submit(event => {
+    this.testing
+    event.preventDefault();
+    const artist = $("#query-artist").val();
+    const title = $("#query-title").val();
+    getLyrics(artist, title);
+  });
+}
+*****************
+
+
+
+var test = 'my name';
+var test2 = 'your name;
+
+
+fetch(url);
+
+console.log(test, test2);
+
+
+
+**********
+
+try {
+  //
+} catch {
+  //
+}
+
+
+
+
+
