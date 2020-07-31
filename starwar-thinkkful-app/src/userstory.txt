@@ -1,0 +1,19 @@
+User opens app. App displays header and search form
+User enters search information
+Input field mandatory
+Search type drop-down list
+Character
+Vehicles
+Planets
+Films
+Species
+User selects submit
+Errors for mandatory fields shown at this point
+Search form disappears, search results show
+Button asks the user if they’d like to search again.
+ 
+ 
+Gracefully displaying a loading indicator, and handling error conditions
+ 
+A passing test suite
+

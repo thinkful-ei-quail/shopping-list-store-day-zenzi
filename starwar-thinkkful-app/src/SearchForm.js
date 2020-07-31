@@ -1,8 +1,5 @@
-'use strict';
-
 import React from 'react';
 
-import React from 'react'
 import PropTypes from 'prop-types';
 
 
@@ -25,7 +22,7 @@ class SearchForm extends React.Component {
   }
   
   updateSearchType(searchTypes) {
-    this.setState({searchTypes: {value: searchTypes});
+    this.setState({searchTypes: {value: searchTypes}});
   }
   handleSubmit(event) {
     //fetch
@@ -58,7 +55,7 @@ class SearchForm extends React.Component {
               id="name"
               onChange={e => this.updateName(e.target.value)}
               />
-              {this.state.name.touched && noteNameError}
+              {this.state.name.touched && searchNameError}
           </div>
           <div className="search-type">
           <label for="type-of-search">Select a Search Type:</label>
