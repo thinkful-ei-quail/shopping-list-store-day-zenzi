@@ -1,0 +1,112 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Roboto, Candara, Verdana;
+}
+
+#answerSubmit{
+display: none;
+}
+
+
+header {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  background-color: #362852;
+  font-size: large;
+}
+main {
+  background-color: #362852;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+body.correct {
+  background-color: #136f63;
+}
+
+body.wrong {
+  background-color: #D1495B;
+}
+
+.container {
+  width: 500px;
+  max-width: 80%;
+  background-color: #EEFFDB;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.blockbutton {
+  background-color: #AEA4BF;
+  display: center;
+  text-align: center;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin:10px 5px;
+  color: #241B37;
+  outline: none;
+}
+
+.blockbutton:hover {
+  border-color: black;
+  background-color: #241B37;
+  color: gray;
+}
+
+.btn-correct {
+  background-color: #136f63;
+}
+
+.btn-wrong {
+  background-color: #D1495B;
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+
+@media (min-width: 700px) {
+  header {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+  .container{
+    width: 900px;
+
+
+  }
+
+}
+  
+/*
+
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+*/
