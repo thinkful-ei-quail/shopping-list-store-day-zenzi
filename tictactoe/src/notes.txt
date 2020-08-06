@@ -1,0 +1,8 @@
+1. React, just loads the whole react project into an html element which has root id by default.
+2. Class component, needs to have a render() function which actually renders its template (HTML markup)
+3. Class markup needs to be enclosed into one tag, if you have nothing, you can use: <> </>
+4. You can break one  template into multiple components so that you can reuse  them.
+5. You pass data from parent component to the child component using props
+6. When you change a state variable, it rerenders the components which use the same state variable
+7. You always update a state using setState function8. You handle the events using event handlers, for example clicking of a button is handled by 
+an event handler called: onClick

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.red-class {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+}
+
+.purple-class {
+  background-color: darkorchid;
+  font-weight: bold;
+  color: white;
+}
